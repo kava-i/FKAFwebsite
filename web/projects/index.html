@@ -12,7 +12,6 @@
 }
 
 .topnav a {
-	position:relative;
 	display: inline-block;
 	color: white;
 	padding: 1rem;
@@ -27,26 +26,11 @@
 	background-color: green;
 	cursor: pointer;
 }
-
-nav.topnav a div{
-	visibility: hidden;
-}
-
-nav.topnav a div{
-	visibility: visible;
-}
-
-.projdrop {
-	position:absolute;
-	left:0;
-	background-color: grey;
-}
-
 </style>
 </head>
 <body>
 	<nav class='topnav'>
-		<a href='/' class='active'>Home</a><a id='proj' href='/projects'>Projects</a><div class='projdrop'><a>One</a><a>Two</a></div>
+		<a href='/'>Home</a><a href='/projects' class='active'>Projects</a>
 	</nav>
-	<h1 style='margin-top: 5rem'>Draft of Website</h1>
+	<h1 style='margin-top: 5rem'>Draft of Projects</h1>
 </body>
